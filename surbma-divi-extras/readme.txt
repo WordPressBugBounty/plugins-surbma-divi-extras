@@ -3,9 +3,9 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, divi theme, elegant themes, elegantthemes, page builder, pagebuilder
 Requires at least: 5.2
-Tested up to: 6.2
-Stable tag: 5.1
-Requires PHP: 7.0
+Tested up to: 6.9
+Stable tag: 5.2
+Requires PHP: 7.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,14 @@ Visit my webpage: [Surbma.com](https://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 5.2 =
+
+Release date: 2026-03-27
+
+- FIX - Unclosed CSS media query in logo width fix for mobile view.
+- TWEAK - Updated minimum PHP version requirement to 7.4.
+- TWEAK - Tested with WordPress 6.9 version.
 
 = 5.1 =
 

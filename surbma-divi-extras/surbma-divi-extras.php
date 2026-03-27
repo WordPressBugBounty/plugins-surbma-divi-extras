@@ -5,7 +5,7 @@ Plugin Name: Surbma | Divi Extras
 Plugin URI: https://surbma.com/wordpress-plugins/
 Description: Useful modifications for the Divi Theme.
 
-Version: 5.1
+Version: 5.2
 
 Author: Surbma
 Author URI: https://surbma.com
@@ -39,7 +39,7 @@ function surbma_divi_extras_enqueue_scripts() {
 		$custom_css .= "@media only screen and (min-width:981px){body.et_header_style_left #et-top-navigation{padding-top:{$menu_spacing}px;}#main-header:not(.et-fixed-header) #top-menu .featured-menu>a{margin-bottom:{$menu_spacing}px;}body.et_header_style_left .et-fixed-header #et-top-navigation{margin:{$minimized_menu_spacing}px 0;}}";
 		$custom_css .= "@media all and (max-width:980px){.et_header_style_left #logo, .et_header_style_split #logo {max-height:{$logo_height}%;}}";
 		if ( et_get_option( 'show_search_icon' ) != '1' ) {
-			$custom_css .= "@media all and (max-width:980px){.et_header_style_left #logo, .et_header_style_split #logo {max-width:80%;}";
+			$custom_css .= "@media all and (max-width:980px){.et_header_style_left #logo, .et_header_style_split #logo {max-width:80%;}}";
 		}
 
 		wp_add_inline_style( 'surbma-divi-extra-styles', $custom_css );
